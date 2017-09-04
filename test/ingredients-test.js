@@ -51,7 +51,7 @@ describe('ingredients component', () => {
     let store = configureStore()
       const wrapper = mount(
         <Provider store={store}>
-          < ConnectedIngredients />
+          <ConnectedIngredients />
         </Provider>
       )
       let WrapperConnectedIngredients = wrapper.find(ConnectedIngredients).first()
