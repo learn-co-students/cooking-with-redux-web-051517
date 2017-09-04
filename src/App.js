@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
+import { Link, Route } from 'react-router'
+import { RecipesInput } from './components/recipes/RecipesInput'
 
 export class App extends Component {
   render() {
